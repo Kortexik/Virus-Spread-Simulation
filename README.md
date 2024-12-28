@@ -13,4 +13,5 @@ or (exclusionary alternative)\
 if the individual is infected then:\
 -has symptoms\
 or (exclusionary alternative)\
--does not have symptoms
+-does not have symptoms.\
+A healthy and non-immune individual becomes infected from an infected individual if and only if: a) the distance between them does not exceed 2[m] and (conjunction) b) the time when this distance is maintained is not less than 3[s] of simulation. The probability of getting infected from an asymptomatic individual is 50 percent, and from an individual with symptomatic disease passage is 100 percent.\ The infected individual sustains the infection for 20 to 30 seconds of simulation after which it recovers, gaining immunity.
