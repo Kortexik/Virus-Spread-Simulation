@@ -114,7 +114,7 @@ func (g *Simulation) DrawInputField(screen *ebiten.Image) {
 	text.Draw(screen, inputStep, fontFace, int(headerX), int(headerY+40), color.White)
 
 	if loadingError != "" {
-		if time.Since(g.errorTime).Seconds() < 1 { //nie czaje czemu nie > 1 w sensie ze uplynelo > 1 sekunde to wtedy mozna rysowac inny error lub ten sam znowu?
+		if time.Since(g.errorTime).Seconds() < 1 {
 			text.Draw(screen, loadingError, fontFace, int(headerX), int(headerY+80), color.RGBA{255, 0, 0, 255})
 		}
 	}

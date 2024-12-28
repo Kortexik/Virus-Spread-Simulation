@@ -14,8 +14,7 @@ func main() {
 	ebiten.SetWindowSize(utility.ScreenWidth, utility.ScreenHeight)
 	ebiten.SetWindowTitle("Symulacja")
 	ebiten.SetTPS(25)
-
-	// Run the simulation game
+	
 	if err := ebiten.RunGame(game); err != nil {
 		panic(err)
 	}
