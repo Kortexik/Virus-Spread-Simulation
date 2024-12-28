@@ -17,7 +17,7 @@ or (exclusionary alternative)\
 A healthy and non-immune individual becomes infected from an infected individual if and only if: a) the distance between them does not exceed 2[m] and (conjunction) b) the time when this distance is maintained is not less than 3[s] of simulation. The probability of getting infected from an asymptomatic individual is 50 percent, and from an individual with symptomatic disease passage is 100 percent.\
 The infected individual sustains the infection for 20 to 30 seconds of simulation after which it recovers, gaining immunity.\
 # LABORATORY TASK
-Design and implement a solution to simulate the development of an infection in a population. Enable recording and loading of the simulation state at any time t from the start. The solution is to allow visualization of movement and infection. Use vectors from Lab 2 to model the movement of individuals.\
+Design and implement a solution to simulate the development of an infection in a population. Enable recording and loading of the simulation state at any time t from the start. The solution is to allow visualization of movement and infection. Use vectors from Lab 2 to model the movement of individuals.
 ### VectorsLib code from lab2: https://pastebin.com/FZLF7ywZ
 NOTES\
 Each second of the simulation should consist of 25 steps.
