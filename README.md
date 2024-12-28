@@ -8,7 +8,7 @@ or (exclusionary alternative)\
 -susceptible to infection\
 if an individual is susceptible to infection it is:\
 -healthy\
--or (exclusionary alternative)\
+or (exclusionary alternative)\
 -infected\
 if the individual is infected then:\
 -has symptoms\
